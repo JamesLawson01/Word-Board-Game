@@ -1,0 +1,90 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows7.0</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <SupportedOSPlatformVersion>7.0</SupportedOSPlatformVersion>
+    <!--<NullableReferenceTypes>true</NullableReferenceTypes>-->
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="2x letter.png" />
+    <None Remove="2x word.png" />
+    <None Remove="3x letter.png" />
+    <None Remove="3x word.png" />
+    <None Remove="Blank Image.png" />
+    <None Remove="Delete Tile.png" />
+    <None Remove="letters\A.png" />
+    <None Remove="letters\B.png" />
+    <None Remove="letters\C.png" />
+    <None Remove="letters\D.png" />
+    <None Remove="letters\E.png" />
+    <None Remove="letters\F.png" />
+    <None Remove="letters\G.png" />
+    <None Remove="letters\H.png" />
+    <None Remove="letters\I.png" />
+    <None Remove="letters\J.png" />
+    <None Remove="letters\K.png" />
+    <None Remove="letters\L.png" />
+    <None Remove="letters\M.png" />
+    <None Remove="letters\N.png" />
+    <None Remove="letters\O.png" />
+    <None Remove="letters\P.png" />
+    <None Remove="letters\Q.png" />
+    <None Remove="letters\R.png" />
+    <None Remove="letters\S.png" />
+    <None Remove="letters\T.png" />
+    <None Remove="letters\U.png" />
+    <None Remove="letters\V.png" />
+    <None Remove="letters\W.png" />
+    <None Remove="letters\X.png" />
+    <None Remove="letters\Y.png" />
+    <None Remove="letters\Z.png" />
+    <None Remove="Sowpods.txt" />
+    <None Remove="Star.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Sowpods.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="2x letter.png" />
+    <Resource Include="2x word.png" />
+    <Resource Include="3x letter.png" />
+    <Resource Include="3x word.png" />
+    <Resource Include="Delete Tile.png" />
+    <Resource Include="letters\A.png" />
+    <Resource Include="letters\B.png" />
+    <Resource Include="letters\C.png" />
+    <Resource Include="letters\D.png" />
+    <Resource Include="letters\E.png" />
+    <Resource Include="letters\F.png" />
+    <Resource Include="letters\G.png" />
+    <Resource Include="letters\H.png" />
+    <Resource Include="letters\I.png" />
+    <Resource Include="letters\J.png" />
+    <Resource Include="letters\K.png" />
+    <Resource Include="letters\L.png" />
+    <Resource Include="letters\M.png" />
+    <Resource Include="letters\N.png" />
+    <Resource Include="letters\O.png" />
+    <Resource Include="letters\P.png" />
+    <Resource Include="letters\Q.png" />
+    <Resource Include="letters\R.png" />
+    <Resource Include="letters\S.png" />
+    <Resource Include="letters\T.png" />
+    <Resource Include="letters\U.png" />
+    <Resource Include="letters\V.png" />
+    <Resource Include="letters\W.png" />
+    <Resource Include="letters\X.png" />
+    <Resource Include="letters\Y.png" />
+    <Resource Include="letters\Z.png" />
+    <Resource Include="Blank Image.png" />
+    <Resource Include="Star.png" />
+  </ItemGroup>
+
+</Project>

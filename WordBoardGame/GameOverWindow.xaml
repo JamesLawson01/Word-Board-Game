@@ -1,0 +1,32 @@
+﻿<Window x:Class="WordBoardGame.GameOverWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WordBoardGame"
+        mc:Ignorable="d"
+        Title="Game Over" Height="450" Width="800" Background="#577DA8">
+
+
+    <Grid Margin="100" HorizontalAlignment="Center" VerticalAlignment="Top">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        
+        <Label FontSize="48" FontWeight="Bold" BorderThickness="1,1,1,1" Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="0" Margin="0,0,0,30">Game Over!</Label>
+        <StackPanel Grid.Column="0" Grid.Row="1" HorizontalAlignment="Left" >
+            <Label>Your Score:</Label>
+            <Label x:Name="userScore" Content="50" FontSize="16" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold"/>
+        </StackPanel>
+        <Separator Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="0" Grid.RowSpan="2" Background="White"/>
+        <StackPanel Grid.Column="1" Grid.Row="1" HorizontalAlignment="Right">
+            <Label>Computer's Score:</Label>
+            <Label x:Name="computerScore" Content="50" FontSize="16" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold"/>
+        </StackPanel>
+    </Grid>
+</Window>

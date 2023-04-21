@@ -1,0 +1,19 @@
+no parallel loops:	17.922
+			18.085
+			17.409
+
+1 parallel loop:	8.483
+			8.614
+			8.293
+
+2 parallel loops:	8.175
+			8.971
+			8.716
+
+1 less clone():		4.861
+			4.824
+			4.909
+
+static tile letterValues dict 	0.576
+				0.565
+				0.538

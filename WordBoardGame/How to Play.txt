@@ -1,0 +1,21 @@
+How to Play:
+
+Form words on the gameboard by dragging and dropping letters from the bottom of the screen. On the first turn, a letter must be placed on the central tile. On subsequent turns, words must be connected to other words. On any turn, letters can only placed horizontally or vertically.
+
+Once a tile is placed on the gameboard, it cannot be removed, and must be used on that turn. Tiles on the gameboard can only moved on the same turn that they were placed.
+
+If you do not want a tile that is on your tiledock, you may drag it into the bin in the bottom-left corner of the screen. You can drag as many of the tiles on your tiledock to the bin as you wish. These tiles will be put back into the letter pool, which new letters are randomly drawn from.
+
+On a turn, you may not both form a word and delete tiles.
+
+If you think your opponent has created a word that is not in the dictionary, you may challenge it by clicking the button next the word on the word panel on the right of the screen. If you are successful, your opponent loses the score for that turn, and the tiles are returned to them. If you are unsuccessful, the game continues as normal. Your opponent may challenge your words as well!
+
+Once you have completed your turn, click the Finish Turn button, and your opponent takes their turn.
+
+You may skip a turn by pressing the Finish Turn button without doing anything else.
+
+The game ends once all tiles have been placed, or when there are no more valid moves left.
+
+Scores are updated each turn. Letter scores are indicated on each tile, and bonuses are shown on the gameboard. Each bonus can only be used once. Your score comes from letters you placed on that turn, plus any letters placed by your opponent included in words you formed.
+
+Have Fun!
